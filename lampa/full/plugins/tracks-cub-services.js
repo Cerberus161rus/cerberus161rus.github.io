@@ -1,4 +1,4 @@
-///https://cub.cx/plugins/tracks.js
+///http://cub.cx/plugins/tracks.js
 ///18.06.22
 (function () {
     'use strict';

@@ -1,5 +1,5 @@
 ///http://freebie.tom.ru/lite.js
-///11.06.22
+///18.06.22
 (function () {
     'use strict';
 
@@ -21,6 +21,10 @@
 		{
 			name: 'HDVB',
 			url: 'http://freebie.tom.ru/lampa-lite/hdvb'
+		},
+		{
+			name: 'Kinobase',
+			url: 'http://freebie.tom.ru/lampa-lite/kinobase'
 		},
 		{
 			name: 'Collaps',
