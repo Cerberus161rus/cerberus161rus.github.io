@@ -172,7 +172,7 @@
               label: track.tags.title || track.tags.handler_name,
 			  extra: {
 				  channels: track.channels,
-				  fourCC: (track.codec_name + ' - Ð½Ðµ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶Ð¸Ð²Ð°ÐµÑ‚ÑÑ')
+				  fourCC: (track.codec_name + ' - не поддерживается')
 			  },
               ghost: true
             };
@@ -205,7 +205,7 @@
 			if(!track.tags) track.tags = [];
             var elem = {
               language: track.tags.language,
-              label: (track.tags.title ? (track.tags.title + ' - ') : '') + 'Ð½Ðµ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶Ð¸Ð²Ð°ÐµÑ‚ÑÑ',
+              label: (track.tags.title ? (track.tags.title + ' - ') : '') + 'не поддерживается',
               ghost: true
             };
             video_subs.push(elem);
