@@ -1,5 +1,5 @@
 ///https://webosapp.club/ff.js
-///18.06.22
+///30.06.22
 (function () {
     'use strict';
 
@@ -205,7 +205,7 @@
 			if(!track.tags) track.tags = [];
             var elem = {
               language: track.tags.language,
-              label: (track.tags.title ? (track.tags.title + ' - ') : '') + 'не поддерживается',
+              label: (track.tags.title ? (track.tags.title + ' - ') : '') + ' - не поддерживается',
               ghost: true
             };
             video_subs.push(elem);
