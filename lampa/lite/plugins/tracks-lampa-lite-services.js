@@ -1,5 +1,5 @@
 ///https://webosapp.club/ff.js
-///30.06.22
+///08.07.22
 (function () {
     'use strict';
 

@@ -1,5 +1,5 @@
 ///http://cub.cx/plugins/tracks.js
-///18.06.22
+///08.07.22
 (function () {
     'use strict';
 
@@ -209,7 +209,7 @@
 
       function listenStart() {
         inited = true;
-        var socket = new WebSocket('ws://185.255.132.210:8080/?' + data.torrent_hash + '&index=' + data.id);
+        var socket = new WebSocket('ws://185.204.0.61:8080/?' + data.torrent_hash + '&index=' + data.id);
         socket.addEventListener('message', function (event) {
           try {
             inited_parse = JSON.parse(event.data);

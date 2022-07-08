@@ -1,5 +1,5 @@
 ///https://pastebin.com/raw/Qkm6WFtZ
-///28.06.22
+///08.07.22
 (function () {
     'use strict';
 
